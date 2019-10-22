@@ -41,7 +41,7 @@ Le jeu sera contrôlé à l’aide des boutons de la carte Nexys4 comme suit :
        title="FPGA Artix 7 embarqué sur la NEXYS4">
        
 </p>
-<caption ALIGN="top">FPGA Artix 7 embarqué sur la NEXYS4</caption>
+<caption>**FPGA Artix 7 embarqué sur la NEXYS4**</caption>
 
 ## Architecture
 La première chose à réaliser avant de commencer le codage sur Vivado était l’architecture globale de notre projet sur laquelle on se base durant toute la période du travail (avec des choses à modifier au fur et à mesure). En plus, en tant que binômes, pour qu’on puisse travailler sur deux choses différentes en même temps, le fait d’avoir une même architecture et surtout la même définition des 7 différentes pièces de Tetris et la table du jeu est indispensable. Toutes ces définitions et d’autres constantes ont été ranger dans une bibliothèque nommée `Tetris_biblio.vhd`.
