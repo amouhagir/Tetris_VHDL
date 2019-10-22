@@ -37,7 +37,7 @@ Le jeu sera contrôlé à l’aide des boutons de la carte Nexys4 comme suit :
 ***Bouton Reset CPU*** : Recommencer le jeu
 
 <p align="center">
-  <img src="SRC/nexys4.png"
+  <img src="Doc/nexys4.png"
        title="FPGA Artix 7 embarqué sur la NEXYS4">
 </p>
 
@@ -46,7 +46,7 @@ La première chose à réaliser avant de commencer le codage sur Vivado était l
 
 La dernière version de l’architecture global du jeu est donnée dans la figure ci-dessous :
 <p align="center">
-  <img src="SRC/archi.png">
+  <img src="Doc/archi.png">
 </p>
 
 **Utilité de chaque bloc :**
@@ -66,7 +66,7 @@ Il gère l’affichage des données sur l’écran par le port VGA.
 
 ## Déroulement du jeu
 <p align="center">
-  <img src="SRC/jeu.png">
+  <img src="Doc/jeu.png">
 </p>
 
 ## Difficultés et améliorations
