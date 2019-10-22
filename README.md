@@ -79,7 +79,6 @@ Durant toute la période de la réalisation de ce projet, nous avons rencontré 
         Alors, nous étions menés à trouver une autre solution qui consiste à conserver les 4 blocs de chaque pièce pour le traitement et les faire agrandir au moment de l’affichage c’est-à-dire chaque case de la table du jeu sera affichée sur 4 pixels. Cette solution nous a permis d’avoir des performances avec moindre ressources.
 
 Le jeu en totalité marchait parfaitement même il y’avait d’autres choses que nous aurions aimé ajouter pour l’améliorer encore plus, mais malheureusement nous n’avions pas assez du temps pour les mettre en place. Parmi ces améliorations on cite :
-
     * Ajouter la musique du jeu pour une meilleure appréciation.
     * Ajouter plusieurs niveaux de difficulté au jeu (chaque niveau détermine la fréquence de chute de pièces). Puis, calculer le score selon le niveau de difficulté.
 
