@@ -15,17 +15,27 @@ Nous conclurons ce rapport par présenter les difficultés que nous avons rencon
 ## Présentation du jeu
 
 On appelle chacune des formes de Tetris, un Tetramino (du terme grec 'tetra', signifiant 'quatre'). Chaque tetramino se compose de quatre carrés assemblés de différentes manières. Il existe sept différentes formes.
+
 Chaque forme qui tombe du haut de l'écran est choisie au hasard parmi l'un des sept types. Le joueur doit faire tourner les blocs durant leur chute et les assembler de façon à ce qu'ils forment des lignes horizontales qui une fois complètes disparaissent de l'écran. Si vous échouez à faire disparaître des lignes, les blocs ne tarderont pas à s'accumuler et s'ils parviennent jusqu'en haut de l'écran, c'est la fin du jeu (Game Over). Le score du joueur se calcule en fonction des lignes complètes.
+
 La vitesse de la descente des pièces sera constante durant la période du jeu, mais on pourra accélérer cette descente en appuyant sur le bouton bas et on maintient cette vitesse accélérée jusqu’à ce qu’on réappuie sur le bouton bas ou la pièce arrive en bas (descente d’une nouvelle pièce).
 
 **Commandes du jeu**
+
 Le jeu sera contrôlé à l’aide des boutons de la carte Nexys4 comme suit :
+
 ***Bouton Bas*** : changer la vitesse de la descente de la pièce.
+
 ***Bouton Droit*** : Déplacement de la pièce à droite.
+
 ***Bouton Gauche*** : Déplacement de la pièce à gauche.
+
 ***Bouton Centre*** : Faire tourner la pièce
+
 ***Bouton Haut*** : Play-Pause du jeu.
+
 ***Bouton Reset CPU*** : Recommencer le jeu
+
 <p align="center">
   <img src="SRC/nexys4.png"
        title="FPGA Artix 7 embarqué sur la NEXYS4">
