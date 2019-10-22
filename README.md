@@ -38,7 +38,8 @@ Le jeu sera contrôlé à l’aide des boutons de la carte Nexys4 comme suit :
 
 <p align="center">
   <img src="Doc/nexys4.png"
-       title="FPGA Artix 7 embarqué sur la NEXYS4">
+       title="FPGA Artix 7 embarqué sur la NEXYS4"
+       caption= "FPGA Artix 7 embarqué sur la NEXYS4">
 </p>
 
 ## Architecture
