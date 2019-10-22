@@ -1,0 +1,70 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Jan 10 15:27:31 2019
+| Host         : volleyball running 64-bit CentOS Linux release 7.3.1611 (Core)
+| Command      : report_control_sets -verbose -file Total_control_sets_placed.rpt
+| Design       : Total
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    17 |
+| Minimum Number of register sites lost to control set restrictions |    54 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1151 |          444 |
+| No           | No                    | Yes                    |             480 |          197 |
+| No           | Yes                   | No                     |             172 |           65 |
+| Yes          | No                    | No                     |               5 |            2 |
+| Yes          | No                    | Yes                    |             180 |           71 |
+| Yes          | Yes                   | No                     |              38 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------+------------------------------------------------+-----------------------------------+------------------+----------------+
+|   Clock Signal   |                  Enable Signal                 |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++------------------+------------------------------------------------+-----------------------------------+------------------+----------------+
+|  Clock_IBUF_BUFG | Controller/E[0]                                | Board_Controller/NReset           |                3 |              5 |
+|  Clock_IBUF_BUFG | Affichage/cellule[ligne][4]_i_1_n_0            | Board_Controller/NReset           |                2 |              5 |
+|  Clock_IBUF_BUFG | Controller/Ligne_cmpt0                         |                                   |                2 |              5 |
+|  Clock_IBUF_BUFG | Affichage/i[6]_i_1_n_0                         | Board_Controller/NReset           |                5 |              7 |
+|  Clock_IBUF_BUFG | Affichage/j[7]_i_1_n_0                         | Board_Controller/NReset           |                6 |              8 |
+|  Clock_IBUF_BUFG | Affichage/cellule[col][3]_i_1_n_0              | Board_Controller/NReset           |                5 |              9 |
+|  Clock_IBUF_BUFG | VGA/v_counter[9]_i_1_n_0                       | Board_Controller/NReset           |                4 |             10 |
+|  Clock_IBUF_BUFG | Controller/piece_desc_reg[Blocks][0][col][0]   | Board_Controller/NReset           |                2 |             10 |
+|  Clock_IBUF_BUFG | Board_Controller/NEW_PIECE0_out                | Board_Controller/NReset           |                3 |             12 |
+|  Clock_IBUF_BUFG | Affichage/ADDR[13]_i_1_n_0                     | Board_Controller/NReset           |                6 |             14 |
+|  Clock_IBUF_BUFG | Controller/piece_desc_reg[Blocks][2][ligne][4] | Board_Controller/NReset           |               10 |             19 |
+|  Clock_IBUF_BUFG | Controller/piece_desc_reg[Blocks][3][col][3]_0 | Board_Controller/NReset           |               15 |             27 |
+|  Clock_IBUF_BUFG | VGA/pix_read_addr_rep[13]_i_2_n_0              | VGA/pix_read_addr_rep[13]_i_1_n_0 |                8 |             28 |
+|  Clock_IBUF_BUFG | Board_Controller/LIGNE_COMPLETE                | Board_Controller/NReset           |                8 |             32 |
+|  Clock_IBUF_BUFG | Gestion_temps/Signal_CE_reg_n_0                | Board_Controller/NReset           |                6 |             32 |
+|  Clock_IBUF_BUFG |                                                | Board_Controller/NReset           |              262 |            652 |
+|  Clock_IBUF_BUFG |                                                |                                   |              447 |           1157 |
++------------------+------------------------------------------------+-----------------------------------+------------------+----------------+
+
+
